@@ -20,7 +20,9 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.json",
+              "src/firebase-messaging-sw.js"
             ],
             "styles": [
               "src/styles.css"
@@ -97,5 +99,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b60df57c-5699-47d9-a35e-498f82408229"
   }
 }
